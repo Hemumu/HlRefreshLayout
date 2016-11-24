@@ -32,11 +32,12 @@ public class MainActivity extends AppCompatActivity {
         SimpleAdapter simpleAdapter = new SimpleAdapter(this,
                 getData(), R.layout.item_listvieww, strings, ids);
         listview.setAdapter(simpleAdapter);
+
+
+
     }
 
-    // 初始化一个List
     private List<HashMap<String, Object>> getData() {
-        // 新建一个集合类，用于存放多条数据
         ArrayList<HashMap<String, Object>> list = new ArrayList<HashMap<String, Object>>();
         HashMap<String, Object> map = null;
         for (int i = 1; i <= 40; i++) {

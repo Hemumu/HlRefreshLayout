@@ -12,15 +12,18 @@
         android:layout_height="match_parent">
 
         <ListView
-            android:id="@+id/listview"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"></ListView>
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
 
 
-    <!--<TextView-->
+        <!--<ImageView-->
+            <!--android:id="@+id/textview"-->
             <!--android:layout_width="match_parent"-->
+            <!--android:gravity="center"-->
             <!--android:layout_height="match_parent"-->
-            <!--android:text="Hello World!!!!" />-->
+            <!--android:src="@mipmap/ic_launcher"-->
+            <!--android:padding="10dp" />-->
 
     </com.helin.hlrefreshlayout.view.SunshineRefresh>
 

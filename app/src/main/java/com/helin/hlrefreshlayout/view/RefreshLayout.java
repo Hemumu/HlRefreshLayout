@@ -134,10 +134,6 @@ public class RefreshLayout extends FrameLayout {
     /**
      * 分发事件
      * <p>
-     * <p>
-     * ACTION_MOVE 的方向向下，canChildScrollUp 返回值为 true，则可以移动， header 和ChildView 向下移动，否则，事件交由父类处理。
-     * ACTION_MOVE 的方向向上，如果当前位置大于起始位置，则可以移动，Header 和 Content 向上移动，否则，事件交由父类处理。
-     *
      * @param e
      * @return
      */
