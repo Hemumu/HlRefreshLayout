@@ -1,4 +1,4 @@
-package com.helin.hlrefreshlayout.view;
+package com.helin.hlpullrefresh.view;
 
 import android.animation.ValueAnimator;
 import android.content.Context;

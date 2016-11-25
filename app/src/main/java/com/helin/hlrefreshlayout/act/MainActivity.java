@@ -6,7 +6,6 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
 import com.helin.hlrefreshlayout.R;
-import com.helin.hlrefreshlayout.view.RefreshLayout;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -15,7 +14,6 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
 
-    private RefreshLayout mRefreshLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

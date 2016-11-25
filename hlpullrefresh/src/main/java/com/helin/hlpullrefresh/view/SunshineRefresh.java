@@ -1,4 +1,4 @@
-package com.helin.hlrefreshlayout.view;
+package com.helin.hlpullrefresh.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -6,8 +6,9 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.helin.hlrefreshlayout.R;
-import com.helin.hlrefreshlayout.uitl.DensityUtil;
+import com.helin.hlpullrefresh.R;
+import com.helin.hlpullrefresh.util.DensityUtil;
+
 
 /**
  * Created by helin on 2016/11/22 16:36.

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#6666"
-    android:gravity="center"
-    tools:context="com.helin.hlrefreshlayout.act.MainActivity">
+    android:gravity="center">
 
-    <com.helin.hlrefreshlayout.view.SunshineView
+    <com.helin.hlpullrefresh.view.SunshineView
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:id="@+id/sunshine">
-    </com.helin.hlrefreshlayout.view.SunshineView>
+    </com.helin.hlpullrefresh.view.SunshineView>
 </LinearLayout>
