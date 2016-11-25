@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void init() {
         ListView listview = (ListView) findViewById(R.id.listview);
-        String data[]={"1","2","3"};
         String[] strings = {"text"};//Map的key集合数组
         int[] ids = {R.id.text1};//对应布局文件的id
         SimpleAdapter simpleAdapter = new SimpleAdapter(this,

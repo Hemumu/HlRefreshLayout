@@ -4,22 +4,22 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
-import android.widget.TextView;
+import android.widget.LinearLayout;
 
 /**
- * Created by helin on 2016/11/24 17:07.
+ * Created by helin on 2016/11/25 09:40.
  */
 
-public class TestVieww extends TextView {
-    public TestVieww(Context context) {
+public class TextViewGroup extends LinearLayout{
+    public TextViewGroup(Context context) {
         super(context);
     }
 
-    public TestVieww(Context context, AttributeSet attrs) {
+    public TextViewGroup(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public TestVieww(Context context, AttributeSet attrs, int defStyleAttr) {
+    public TextViewGroup(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
@@ -28,10 +28,10 @@ public class TestVieww extends TextView {
     public boolean dispatchTouchEvent(MotionEvent event) {
         switch (event.getAction()){
             case MotionEvent.ACTION_DOWN:
-                Log.e("dispatchTouchEvent","ACTION_DOWN------");
-
+                Log.e("dispatchTouchEvent***","ACTION_DOWN------");
+                break;
             case MotionEvent.ACTION_MOVE:
-                Log.e("dispatchTouchEvent","ACTION_MOVE------");
+                Log.e("dispatchTouchEvent***","ACTION_MOVE------");
                 break;
         }
 
@@ -40,16 +40,15 @@ public class TestVieww extends TextView {
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
-        Log.e("onTouchEvent","onTouchEvent------");
         switch (event.getAction()){
             case MotionEvent.ACTION_DOWN:
-                Log.e("onTouchEvent","ACTION_DOWN------");
+                Log.e("onTouchEvent***","ACTION_DOWN------");
+                break;
             case MotionEvent.ACTION_MOVE:
-                Log.e("onTouchEvent","ACTION_MOVE------");
+                Log.e("onTouchEvent***","ACTION_MOVE------");
                 break;
         }
-        return  true;
-//        return super.onTouchEvent(event);
 
+        return super.onTouchEvent(event);
     }
 }

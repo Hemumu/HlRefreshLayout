@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     tools:context="com.helin.hlrefreshlayout.act.MainActivity">
 
+
+
     <com.helin.hlrefreshlayout.view.SunshineRefresh
         android:id="@+id/refresh_layout"
         android:layout_width="match_parent"
@@ -17,7 +19,7 @@
         android:layout_height="match_parent"></ListView>
 
 
-        <!--<ImageView-->
+        <!--<imageview-->
             <!--android:id="@+id/textview"-->
             <!--android:layout_width="match_parent"-->
             <!--android:gravity="center"-->
